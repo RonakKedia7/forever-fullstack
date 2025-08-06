@@ -19,7 +19,7 @@ app.use(cors());
 connectDB();
 connectCloudinary();
 
-app.get("/", () => {
+app.get("/", (req, res) => {
   res.json({ message: "API Working ✅" });
 });
 
