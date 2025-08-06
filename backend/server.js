@@ -19,6 +19,10 @@ app.use(cors());
 connectDB();
 connectCloudinary();
 
+app.get("/", () => {
+  res.json({ message: "API Working ✅" });
+});
+
 // Api Endpoints
 app.use("/api/user", userRouter);
 app.use("/api/product", productRouter);
