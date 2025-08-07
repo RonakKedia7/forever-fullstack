@@ -43,6 +43,14 @@ const Footer = () => {
         <hr className="text-gray-300" />
         <p className="py-5 text-sm text-center text-gray-600">
           &copy; {new Date().getFullYear()} Forever. All rights reserved.
+          Crafted by{" "}
+          <a
+            href="https://github.com/RonakKedia7"
+            className="text-blue-500 hover:underline"
+          >
+            Ronak Kedia
+          </a>
+          .
         </p>
       </div>
     </div>
