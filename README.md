@@ -78,20 +78,32 @@ Explore a smooth shopping experience for users, a robust admin dashboard for sel
 
 ```
 
-root
-├── backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   └── utils
-├── frontend (user app)
-│   ├── components
-│   ├── pages
-│   └── services
-├── admin (dashboard app)
-│   ├── components
-│   ├── pages
-│   └── services
+📁 root
+├── 🖥️ backend
+│   ├── ⚙️ config
+│   ├── 📂 controllers
+│   ├── 🧩 middleware
+│   ├── 🗃️ models
+│   ├── 🚏 routes
+│   └── 🧾 server.js
+├── 🌐 frontend (User App)
+│   └── 📁 src
+│       ├── 🎨 assets
+│       ├── 🌐 context
+│       ├── 🧩 components
+│       ├── 📄 pages
+│       ├── ⚛️ App.jsx
+│       ├── 🖌️ index.css
+│       └── 🚀 main.jsx
+├── 🛠️ admin (Dashboard App)
+│   └── 📁 src
+│       ├── 🎨 assets
+│       ├── 🧩 components
+│       ├── 📄 pages
+│       ├── ⚛️ App.jsx
+│       ├── 🖌️ index.css
+│       └── 🚀 main.jsx
+
 
 ````
 
